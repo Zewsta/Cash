@@ -10,7 +10,7 @@
     "Telegram Bot"
    ],
   "env": {
-    "BOT_TOKEN": {
+    "BOT_ID": {
       "description": "Get it from @BotFather"
     },
     "API_ID": {
@@ -19,8 +19,17 @@
     "API_HASH": {
       "description": "Your API_HASH, Get it from https://my.telegram.org/"
     },
-    "DATABASE_URL": {
-      "description": "Mongodb token for saving the users data",
+    "OWNER_ID": {
+      "description": "Owner ID"
+    },
+    "WINNERS": {
+      "description": "Your API_HASH, Get it from https://my.telegram.org/"
+    },
+    "LOG_GROUP_ID": {
+      "description": "Your API_HASH, Get it from https://my.telegram.org/"
+    },
+    "BOT_TOKEN": {
+      "description": "Bot Token",
       "value": ""
     }
   },
